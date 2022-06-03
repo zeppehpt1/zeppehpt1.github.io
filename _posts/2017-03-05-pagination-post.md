@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Pagination Post"
-author: "Inela"
+title: "A start"
+author: "Richard"
 ---
 
-Here we see **Rain's** pagination feature in action. It is set to 5 posts per page by default. Feel free to change this number in the `_config.yml` file!
+Today I started my awesome blog. But give me some time to configure it a bit.
