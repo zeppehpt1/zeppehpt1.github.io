@@ -1,29 +1,19 @@
 ---
 layout: page
-title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+<img src="/assets/doomguy.png" alt="Weltraumaffendoomguy logo" style="height: 50%; width: 50%; margin-left: auto; margin-right: auto;">
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Welcome to the way of zeppeh - the iddqd astronaut's path to infinite knowledge. This is a place where I document things and thoughts about projects that I have had in the past or that I have at the moment. For you, it could be a place to read about things that are interesting to you, or in the best case, even help you with your own project.
 
-There are currently two themes built on Poole:
+Some facts about this website:
 
-- [Hyde](https://hyde.getpoole.com)
-- [Lanyon](https://lanyon.getpoole.com)
+- Built for Jekyll
+- Using the amazing Dark Poole theme
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+Have questions or suggestions about anything? Feel free to [ask me on Twitter](https://twitter.com/mdo).
 
-## Setup
+Go to the forest!
 
-Some fun facts about the setup of this project include:
-
-- Built for [Jekyll](https://jekyllrb.com)
-- Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-- Coded with [Atom](https://atom.io), an amazing open source code editor
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+<!-- <a href="https://twitter.com/zeppehh">
+<img src="/assets/twitter.png" alt="twitter logo" style="height: 5%; width: 5%;"> ---->
