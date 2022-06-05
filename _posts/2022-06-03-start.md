@@ -1,7 +1,0 @@
----
-layout: post
-title: "A start"
-author: "Richard"
----
-
-Today I started my awesome blog. But give me some time to configure it a bit.
