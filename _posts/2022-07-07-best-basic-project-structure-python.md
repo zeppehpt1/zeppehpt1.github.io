@@ -21,7 +21,7 @@ ExampleProject
 --|packageB
 --|--|__init\__.py
 --|--|moduleA
---|--|moduleA
+--|--|moduleB
 --|notebooks
 --|--|archive
 --|--|paths.py
