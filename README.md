@@ -1,5 +1,7 @@
 ## Credits
 
+For creating the nice theme!
+
 **Mark Otto** (Author)
 
 - <https://github.com/mdo>
