@@ -14,18 +14,18 @@ ExampleProject
 --|--|data_archive
 --|ExampleProject
 --|packageA
---|--|__init\__.py
+--|--|__init__.py
 --|--|moduleA
 --|--|moduleB
 --|--|moduleC
 --|packageB
---|--|__init\__.py
+--|--|__init__.py
 --|--|moduleA
 --|--|moduleB
 --|notebooks
 --|--|archive
 --|--|paths.py
---|__init\__.py
+--|__init__.py
 --|__main__.py
 --|paths.py
 .gitignore
@@ -98,7 +98,7 @@ printing_tools.print_csv(csv_path)
 
 Yeah, cool, now that's clear and separate. I always think of this process as having an idea, drawing that idea on a board, prototyping, and then building a beautiful object. The advantage of code is that we can capture our ideas and steps in a simple way. But now let's get to the **`.gitignore`** file. This one is more or less optional, but if you work with Git, you will like this file a lot.
 
-# (optional) The role of the infamous .gitignore
+# (optional) The role of the .gitignore
 
 I will not go into further detail about what this file does. There are other sources that do it much better than I could. But let's talk about some of the things we put in there and why we do it that way. Any temporary files/folders from pycharm or vsc should be there. The data/data_archive/ folder also belongs there. Additionally, we exclude the jupyter files because they are annoying in case of conflict, which is due to their verbose json format. But what if we still want to keep these scratches in our repo? I would recommend converting the jupyter files to regular .py files, because then they are manageable and easy to maintain. Just keep the converted jupyter files in the notebook folder. Here is the command to do this from the command line.
 
@@ -108,3 +108,5 @@ jupyter nbconvert --to python [YOUR_NOTEBOOK].ipynb
 
 # End
 I hope this structure helps you develop your new application/project for work or university. If you have any questions or suggestions, feel free to contact me on my Twitter. You know how it goes.
+
+Edit: 07.11.2022
