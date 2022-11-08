@@ -1,6 +1,6 @@
 ---
 layout: post
-title: An attempt for a nice basic project structure for your own python project
+title: An attempt for a basic Python project structure
 ---
 
 TLDR:
