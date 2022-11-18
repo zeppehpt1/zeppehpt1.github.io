@@ -11,7 +11,7 @@ Some facts about this website:
 - Built for Jekyll
 - Using the amazing Dark Poole theme
 
-Have questions or suggestions about anything? Feel free to [ask me on Twitter](https://twitter.com/mdo).
+Have questions or suggestions about anything? Feel free to [ask me on Twitter](https://twitter.com/zeppehh).
 
 Go to the forest!
 
