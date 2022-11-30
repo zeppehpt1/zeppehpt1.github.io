@@ -14,6 +14,11 @@ warped = gdal.Warp(output_path, reference_tif, targetAlignedPixels=True, xRes=0.
 warped = None
 ```
 
+Reproject raster file
+```zsh
+gdalwarp -s_srs epsg:31468 -t_srs epsg:32632 Bamberg_dtm_31468.tif newly.tif
+```
+
 Select a smaller window from a raster file:
 ```bash
 gdal_translate -srcwin 20000 20000 1000 1000 ortho.tif sample.tif 
