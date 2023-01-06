@@ -4,6 +4,9 @@ Create enviroment yml
 conda list -e > enviroment.yml
 ```
 
+Create new enviroment
+mamba create -n 'enviroment'
+
 List all packages of the currently used and activated enviroment
 ```bash
 mamba list

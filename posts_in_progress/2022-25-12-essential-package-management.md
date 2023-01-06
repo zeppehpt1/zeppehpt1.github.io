@@ -1,5 +1,6 @@
 - search for package in pacman
 sudo pacman -Ss query
+yay -Ss query
 
 sudo pacman -Syu package
 
