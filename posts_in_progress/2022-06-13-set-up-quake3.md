@@ -18,7 +18,7 @@ $ ./quake3server start
 We don't care about the individual client settings for now. Just go to multiplayer and change the server filter to local. Woala your wholesome server should be visible now. Try if you can join your server.
 
 # Integrate the OSP mod
-First download the files from the [website](https://www.orangesmoothie.org/download.html). You can either do this directly from your servers command line via "TTESTS THIS COMMAN with:
+First download the files from the [website](https://www.orangesmoothie.org/download.html). You can either do this directly from your servers command line via "TTESTS THIS COMMAND with:
 ```bash
 $ wget
 ```

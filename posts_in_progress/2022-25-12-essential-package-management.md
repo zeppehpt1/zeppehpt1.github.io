@@ -1,9 +1,11 @@
-- search for package in pacman
+- search for package with pacman
 sudo pacman -Ss query
+
+- search for package with yay
 yay -Ss query
 
+- install community package via pacman 
 sudo pacman -Syu package
-
 
 - install aur/community package
 yay package
