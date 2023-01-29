@@ -4,7 +4,10 @@ title: Clean up some linux space
 ---
 
 
-use ncdu
+use ncdu and manually delete large folders
+```bash
+ncdu
+```
 
 Select and determine folders that take up large amount of space.
 
