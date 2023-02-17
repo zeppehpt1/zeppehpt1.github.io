@@ -3,6 +3,19 @@ Remove alpha channel from tif:
 gdal_translate -b 1 -b 2 -b 3 -of GTiff -co BIGTIFF=YES -co COMPRESS=LZW input.tif output.tif
 ```
 
+```python
+kwargs = {
+    'format': 'GTiff',
+    'outputType': gdal.GDT_Int16
+    'bandList' [1,2,3]
+}
+fn = 'input.tif'
+dst_fn = 'output.tif'
+
+ds = gdal.Translate(dst_fn, fn, **kwargs)
+ds = None # close and save ds
+```
+
 Adjust pixel size cmd:
 ```bash
 gdalwarp -tr 0.034186315034993066 -0.03418631503499349 Theresienhain_DSM_Juli_2022_ds_dtm.tif Theresienhain_DTM_Juli_2022.tif
@@ -23,6 +36,10 @@ gdalwarp -s_srs epsg:31468 -t_srs epsg:32632 Bamberg_dtm_31468.tif newly.tif
 Select a smaller window from a raster file:
 ```bash
 gdal_translate -srcwin 20000 20000 1000 1000 ortho.tif sample.tif 
+```
+
+```bash
+gdal_translate -projwin ulx uly lrx lry input.tif output.tif
 ```
 
 Make background of .tif transparent:
