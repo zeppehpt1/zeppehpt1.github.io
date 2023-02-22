@@ -1,8 +1,8 @@
-Remove alpha channel from tif:
+Remove alpha channel from tif cmd:
 ```bash
 gdal_translate -b 1 -b 2 -b 3 -of GTiff -co BIGTIFF=YES -co COMPRESS=LZW input.tif output.tif
 ```
-
+Remove alpha channel from tif python:
 ```python
 kwargs = {
     'format': 'GTiff',
@@ -13,7 +13,7 @@ fn = 'input.tif'
 dst_fn = 'output.tif'
 
 ds = gdal.Translate(dst_fn, fn, **kwargs)
-ds = None # close and save ds
+ds = None
 ```
 
 Adjust pixel size cmd:
@@ -33,11 +33,12 @@ Reproject raster file
 gdalwarp -s_srs epsg:31468 -t_srs epsg:32632 Bamberg_dtm_31468.tif newly.tif
 ```
 
-Select a smaller window from a raster file:
+Select a smaller window from a raster file based on the origin of the image file (top left corner of the image):
 ```bash
 gdal_translate -srcwin 20000 20000 1000 1000 ortho.tif sample.tif 
 ```
 
+Select a smaller window from a raster file based on the given top left corner and bottom right corner coordinates:
 ```bash
 gdal_translate -projwin ulx uly lrx lry input.tif output.tif
 ```
@@ -49,5 +50,5 @@ gdal_edit.py -a_nodata 0 hain_complete.tif
 
 Get information about raster file:
 ```bash
-gdalinfo
+gdalinfo example.tif
 ```
