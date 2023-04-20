@@ -1,3 +1,8 @@
+---
+layout: post
+title: GDAL cheatsheet
+---
+
 Remove alpha channel from tif cmd:
 ```bash
 gdal_translate -b 1 -b 2 -b 3 -of GTiff -co BIGTIFF=YES -co COMPRESS=LZW input.tif output.tif
@@ -11,7 +16,6 @@ kwargs = {
 }
 fn = 'input.tif'
 dst_fn = 'output.tif'
-
 ds = gdal.Translate(dst_fn, fn, **kwargs)
 ds = None
 ```
@@ -46,6 +50,14 @@ gdal_translate -projwin ulx uly lrx lry input.tif output.tif
 Make background of .tif transparent:
 ```bash
 gdal_edit.py -a_nodata 0 hain_complete.tif
+```
+
+Merge/concatenate tiff-files:
+```Python
+files = [ortho1, ortho2]
+gg = gdal.BuildVRT("", files)
+g = gdal.Translate('/home/richard/data/Bamberg_Stadtwald/out.tif', gg, format="GTiff", options=['COMPRESS=LZW'])
+g = None
 ```
 
 Get information about raster file:
