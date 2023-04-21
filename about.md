@@ -11,7 +11,7 @@ Some facts about this website:
 - Built for Jekyll
 - Using the amazing Dark Poole theme
 
-Have questions or suggestions about anything? Feel free to [send me a mail](zeppeh@icloud.com).
+Have questions or suggestions about anything? Feel free to [send me a mail](mailto:zeppeh@icloud.com).
 
 Go to the forest!
 
