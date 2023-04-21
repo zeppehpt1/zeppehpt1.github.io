@@ -4,9 +4,9 @@ title: Conda cheatsheet
 ---
 
 General stuff:
-- Directly install mamba into a new conda enviroment or install mambaforge in the first place (mamba is per default installed)
+- Directly install mamba into a fresh new conda enviroment or install mambaforge in the first place (then mamba is installed per default)
 - install pip in the default (base) enviroment
-- install pip packages only if they aren't available on conda
+- install pip packages *only* if they aren't available on conda
 
 Create enviroment yml file
 ```bash
@@ -20,7 +20,7 @@ mamba create -n 'enviroment'
 
 Create new enviroment based on a yml file
 ```bash
-mamba env create --file rnaquant_env.yaml
+mamba env create --file requirements.yaml
 ```
 
 List your enviroments
