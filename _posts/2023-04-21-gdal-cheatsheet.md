@@ -20,6 +20,12 @@ ds = gdal.Translate(dst_fn, fn, **kwargs)
 ds = None
 ```
 
+Add alpha channel cmd
+```python
+gdalbuildvrt -srcnodata "255 255 255" virtualimage.vrt input.tif
+gdal_translate virtualimage.vrt output.tif
+```
+
 Adjust pixel size cmd
 ```bash
 gdalwarp -tr 0.034186315034993066 -0.03418631503499349 Theresienhain_DSM_Juli_2022_ds_dtm.tif Theresienhain_DTM_Juli_2022.tif
