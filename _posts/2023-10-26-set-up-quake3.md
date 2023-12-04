@@ -3,7 +3,7 @@ layout: post
 title: How to easily set up a Quake 3 server with the OSP mod
 ---
 
-# Prequestities
+# Prerequisites
 - A local server running with a linux distro (Ubuntu in my case)
 - A Quake 3 copy
 
