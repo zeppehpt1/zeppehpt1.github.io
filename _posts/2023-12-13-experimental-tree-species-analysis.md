@@ -5,7 +5,7 @@ title: Experimental unsupervised clustering of (mostly) deciduous tree species
 
 # Introduction
 
-Due to time and content constraints, I was not able to conduct an experiment with the proposed pipeline on an unlabeled forest area during my [master's thesis](https://www.researchgate.net/publication/375121342_Unsupervised_Machine_Learning_via_Feature_Extraction_and_Clustering_to_Classify_Tree_Species_from_High-Resolution_UAV-based_RGB_Image_Data). Therefore, I will talk about this experiment in this article.
+Due to time and content constraints, I was not able to conduct an experiment with the proposed pipeline on an unlabeled forest area during my [master's thesis](https://www.researchgate.net/publication/375121342_Unsupervised_Machine_Learning_via_Feature_Extraction_and_Clustering_to_Classify_Tree_Species_from_High-Resolution_UAV-based_RGB_Image_Data). I will therefore briefly discuss this experiment and its results in this article.
 
 
 # Used data
