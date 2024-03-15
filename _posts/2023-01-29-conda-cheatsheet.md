@@ -5,8 +5,9 @@ title: Conda/mamba cheatsheet
 
 My personal advice:
 - Directly install mamba into a fresh new conda environment or install miniforge in the first place (then mamba is installed per default)
-- install pip in the <del>default (base)</del> target enviroment
-- install pip packages *only* if they aren't available on conda
+- Alternatively, you can also use the libmamba solver instead of the classic conda solver to speed up the setup of your conda environment
+- Install pip in the <del>default (base)</del> target enviroment
+- Install pip packages *only* if they aren't available on conda
 
 Create enviroment yml file
 ```bash
