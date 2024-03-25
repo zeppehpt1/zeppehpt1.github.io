@@ -23,7 +23,7 @@ Some facts about this website:
 
 ### PS
 
-Have questions about anything - or a suggestion for a weird music record? Feel free to contact me via zeppeh\at\icloud\com
+Have questions about anything - or a suggestion for a weird music record? Feel free to contact me via zeppeh@icloud.com
 
 Go into the forest!
 
