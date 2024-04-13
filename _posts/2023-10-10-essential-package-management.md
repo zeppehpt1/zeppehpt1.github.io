@@ -13,10 +13,11 @@ Search for package with yay
 yay -Ss query
 ```
 
-Install community package via pacman 
+Install community package via pacman + update
 ```bash
 sudo pacman -Syu package
 ```
+
 Install aur/community package
 ```bash
 yay package
@@ -25,6 +26,10 @@ yay package
 Remove aur/community package + unnesessary dependencies
 ```bash
 yay -Rns package
+```
+Or
+```bash
+pacman -Rs package
 ```
 
 Update whole system
